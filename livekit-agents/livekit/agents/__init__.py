@@ -24,6 +24,7 @@ from . import (
     utils,
     vad,
     voice_assistant,
+    tranlate_assistant
 )
 from .apipe import AsyncPipe  # noqa
 from .ipc.protocol import IPC_MESSAGES, Log, StartJobRequest, StartJobResponse  # noqa
@@ -51,5 +52,6 @@ __all__ = [
     "tokenize",
     "llm",
     "voice_assistant",
+    "tranlate_assistant",
     "transcription",
 ]
